@@ -1,0 +1,37 @@
+/* code comments in css are so hard to type */
+/* i miss python already */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Courier New", Courier, monospace; /* monospace bc funny */
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: rgb(0, 0, 20); /* slightly blue-ish */
+    color: rgb(255, 255, 255);
+    padding: 1em; /* i have no clue what an em is but aight */
+    text-align: center; /* why not */
+}
+
+main {
+    padding: 2em; /* bro im serious wtf is an em */
+}
+
+h1, h2, h3 {
+    color: rgb(0, 100, 255) /* blue bc blue is my favorite color */;
+}
+
+ul {
+    background: rgb(0,0,0);
+    padding: 1em;
+    /* border-radius: 8px;  */ /* this is literally useless the background of both the list and the body are the same */
+    list-style-type: circle; /* circle bullets forever */
+}
+
+li {
+    margin-bottom: 0.5em; /* i don't use ordered lists anywhere in the HTML but eh */ 
+}
