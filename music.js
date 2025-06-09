@@ -1,5 +1,5 @@
 document.getElementById('song').addEventListener('click', function() {
-    let audio = new Audio("music.mp3");
+    let audio = new Audio("assets/music.mp3");
     audio.play();
     console.log("le moozik is playing YAHOO");
 });
