@@ -12,9 +12,12 @@ body {
 
 header, footer {
     background-color: rgb(0, 0, 20); /* slightly blue-ish */
-    color: rgb(255, 255, 255);
-    padding: 1em;
     text-align: center; /* why not */
+    font-size: 14px;
+}
+
+header, footer {
+    padding: 1em;
 }
 
 main {
@@ -22,7 +25,7 @@ main {
 }
 
 h1, h2, h3 {
-    color: rgb(0, 100, 255) /* blue bc blue is my favorite color */;
+    color: rgb(0, 100, 255); /* blue bc blue is my favorite color */
 }
 
 ul {
