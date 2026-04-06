@@ -1,0 +1,80 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* COLORS */
+
+:root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --primary: #ff2841;
+    --secondary: #75122a;
+    --accent: #e80f4c;
+}
+
+/* BASE STYLES */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--secondary);
+    text-align: center;
+    font-size: 14px;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    color: var(--primary);
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    padding: 1em;
+    list-style-type: circle; /* circle bullets forever */
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* INTERACTIVE ELEMENTS */
+
+button {
+    background-color: var(--secondary);
+    color: var(--text-color);
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--accent);
+    cursor: pointer;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* CUSTOM CLASSES */
+
+.mid-align {
+    text-align: center;
+}
