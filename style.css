@@ -55,7 +55,7 @@ code {
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--dim);
   padding: 0.2em 0.4em;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 /* INTERACTIVE ELEMENTS */
