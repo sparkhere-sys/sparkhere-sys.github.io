@@ -54,7 +54,7 @@ li {
 code {
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--dim);
-  padding: 0.2em 0.4em;
+  padding: 0.2em 0.2em;
   border-radius: 2px;
 }
 
