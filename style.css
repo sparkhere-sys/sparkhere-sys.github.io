@@ -54,14 +54,14 @@ li {
 code {
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--dim);
-  padding: 0.2em 0.2em;
+  padding: 0.1em 0.3em;
   border-radius: 2px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-	padding: 0em 1.3em;
+	padding: 1em 1.3em;
 }
 
 nav {
