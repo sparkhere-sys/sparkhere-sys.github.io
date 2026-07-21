@@ -1,0 +1,133 @@
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+// COLORS
+
+$bg-color: #360115;
+$text-color: #ffffff;
+$primary: #ff2841;
+$secondary: #75122a;
+$accent: #e80f4c;
+$dim: #795663;
+
+// BASE STYLES
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+header,
+footer {
+  background-color: $secondary;
+  font-size: 14px;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.3em;
+}
+
+main {
+  padding: 2em;
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  color: $primary;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  padding: 1em;
+  list-style-type: circle;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: $secondary;
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+nav {
+  padding: 0.5em;
+  font-size: 16px;
+
+  a {
+    font-weight: bold;
+  }
+
+  display: flex;
+  gap: 0.4em;
+}
+
+// INTERACTIVE ELEMENTS
+
+button {
+  background-color: $secondary;
+  color: $text-color;
+  border: none;
+  padding: 0.5em 1em;
+  text-align: center;
+
+  &:hover {
+    background-color: $accent;
+    cursor: pointer;
+  }
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+// CLASSES
+
+.left-align {
+  text-align: left;
+}
+
+.mid-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.ps {
+  font-size: 0.9em;
+  color: $dim;
+}
+
+// FLEXBOX
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

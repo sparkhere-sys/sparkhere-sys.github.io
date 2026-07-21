@@ -1,0 +1,96 @@
+---
+import Layout from "../layouts/default.astro";
+
+const archapt = "https://github.com/sparkhere-sys/archapt";
+const wahoo = "https://github.com/sparkhere-sys/wahoo";
+const strutils = "https://github.com/sparkhere-sys/strutils";
+const bolt = "https://github.com/sparkhere-sys/bolt";
+const vftf = "https://vanillafortress.github.io";
+---
+
+<Layout
+  title="projects - spark's website"
+  description="stuff i make">
+
+<h1 class="mid-align">projects</h1>
+
+<h2>applications</h2>
+
+<ul>
+  
+  <li>
+    <a href={archapt} target="_blank" rel="noopener noreferrer">
+      archapt
+    </a>
+
+    <p>
+      a <code>pacman</code> wrapper that pretends to be <code>apt</code>.
+      i wrote this in bash and its basically abandoned. use it if you dare.
+    </p>
+
+  </li>
+
+  <li>
+    <a href={wahoo} target="_blank" rel="noopener noreferrer">
+      wahoo
+    </a>
+
+    <p>
+      an AUR helper i wrote in Python because i was bored.
+      here be dragons. use it if you dare. its extremely buggy.
+      i have not worked on it in months.
+    </p>
+
+  </li>
+
+  <li>
+    <a href={bolt} target="_blank" rel="noopener noreferrer">
+      Bolt
+    </a>
+
+    <p>
+      a Discord bot i wrote in Python.
+      abandoned due to burnout.
+    </p>
+
+  </li>
+
+</ul>
+
+<h2>libraries</h2>
+
+<ul>
+
+  <li>
+    <a href={strutils} target="_blank" rel="noopener noreferrer">
+      StrUtils
+    </a>
+
+    <p>
+      my first C++ project and one i'm pretty proud of.
+      i made it because <code>std::string</code> <b>sucks</b>.
+    </p>
+    
+  </li>
+  
+</ul>
+
+<h2>other stuff i worked on</h2>
+
+<ul>
+
+  <li>
+    <a href={vftf} target="_blank" rel="noopener noreferrer">
+      Vanilla Fortress's website
+    </a>
+  </li>
+
+</ul>
+
+<h2>games</h2>
+
+<p>
+  coming soon™
+</p>
+
+</Layout>

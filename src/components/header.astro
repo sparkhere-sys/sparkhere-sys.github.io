@@ -1,0 +1,29 @@
+---
+const current_path = Astro.url.pathname;
+const navigation = [
+  { href: "/", label: "home" },
+  { href: "/about/", label: "about me" },
+  { href: "/projects/", label: "projects" },
+  { href: "/contact/", label: "contact me" },
+];
+
+const is_current_page = (href: string) => // wow we're using lambdas now?
+  href === "/" ? current_path === href : current_path.startsWith(href);
+---
+
+<header>
+
+  <a href="/"><h3>spark's website</h3></a>
+
+  <nav class="right-align">
+    {navigation.map((item) => (
+      <a
+        href={item.href}
+        aria-current={is_current_page(item.href) ? "page" : undefined}
+      >
+        {item.label}
+      </a>
+    ))}
+  </nav>
+
+</header>
